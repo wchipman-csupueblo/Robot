@@ -83,6 +83,7 @@
             btnGo1.TabIndex = 2;
             btnGo1.Text = "Go &1";
             btnGo1.UseVisualStyleBackColor = true;
+            btnGo1.Click += btnGo1_Click;
             // 
             // btnN
             // 
@@ -93,6 +94,7 @@
             btnN.TabIndex = 3;
             btnN.Text = "&N";
             btnN.UseVisualStyleBackColor = true;
+            btnN.Click += btnN_Click;
             // 
             // btnW
             // 
@@ -103,6 +105,7 @@
             btnW.TabIndex = 4;
             btnW.Text = "&W";
             btnW.UseVisualStyleBackColor = true;
+            btnW.Click += btnW_Click;
             // 
             // btnE
             // 
@@ -113,6 +116,7 @@
             btnE.TabIndex = 5;
             btnE.Text = "&E";
             btnE.UseVisualStyleBackColor = true;
+            btnE.Click += btnE_Click;
             // 
             // btnS
             // 
@@ -123,6 +127,7 @@
             btnS.TabIndex = 6;
             btnS.Text = "&S";
             btnS.UseVisualStyleBackColor = true;
+            btnS.Click += btnS_Click;
             // 
             // btnGo10
             // 
@@ -133,6 +138,7 @@
             btnGo10.TabIndex = 7;
             btnGo10.Text = "&Go 10";
             btnGo10.UseVisualStyleBackColor = true;
+            btnGo10.Click += btnGo10_Click;
             // 
             // btnExit
             // 
@@ -143,6 +149,7 @@
             btnExit.TabIndex = 8;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // Form1
             // 
@@ -162,6 +169,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Robot";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
