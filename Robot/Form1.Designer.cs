@@ -34,8 +34,10 @@
             btnGo1 = new Button();
             btnN = new Button();
             btnW = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            btnE = new Button();
+            btnS = new Button();
+            btnGo10 = new Button();
+            btnExit = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -102,31 +104,56 @@
             btnW.Text = "&W";
             btnW.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnE
             // 
-            button4.Location = new Point(194, 312);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 5;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnE.Location = new Point(149, 278);
+            btnE.Margin = new Padding(2);
+            btnE.Name = "btnE";
+            btnE.Size = new Size(24, 20);
+            btnE.TabIndex = 5;
+            btnE.Text = "&E";
+            btnE.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnS
             // 
-            button5.Location = new Point(134, 340);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 6;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            btnS.Location = new Point(127, 297);
+            btnS.Margin = new Padding(2);
+            btnS.Name = "btnS";
+            btnS.Size = new Size(24, 20);
+            btnS.TabIndex = 6;
+            btnS.Text = "&S";
+            btnS.UseVisualStyleBackColor = true;
+            // 
+            // btnGo10
+            // 
+            btnGo10.Location = new Point(177, 278);
+            btnGo10.Margin = new Padding(2);
+            btnGo10.Name = "btnGo10";
+            btnGo10.Size = new Size(48, 20);
+            btnGo10.TabIndex = 7;
+            btnGo10.Text = "&Go 10";
+            btnGo10.UseVisualStyleBackColor = true;
+            // 
+            // btnExit
+            // 
+            btnExit.Location = new Point(176, 334);
+            btnExit.Margin = new Padding(2);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(75, 23);
+            btnExit.TabIndex = 8;
+            btnExit.Text = "E&xit";
+            btnExit.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            CancelButton = btnExit;
             ClientSize = new Size(284, 376);
-            Controls.Add(button5);
-            Controls.Add(button4);
+            Controls.Add(btnExit);
+            Controls.Add(btnGo10);
+            Controls.Add(btnS);
+            Controls.Add(btnE);
             Controls.Add(btnW);
             Controls.Add(btnN);
             Controls.Add(btnGo1);
@@ -148,7 +175,9 @@
         private Button btnGo1;
         private Button btnN;
         private Button btnW;
-        private Button button4;
-        private Button button5;
+        private Button btnE;
+        private Button btnS;
+        private Button btnGo10;
+        private Button btnExit;
     }
 }
